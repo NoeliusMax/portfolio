@@ -10,6 +10,8 @@
 
   <meta name="keywords" content="Game dev, unity, godot, unreal, C++, C#" />
   <link rel="stylesheet" href="index.css" />
+
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.27/build/spline-viewer.js"></script>
 </head>
 
 <body>
@@ -155,7 +157,6 @@
 
 
     <!-- ***** About ***** -->
-
     <section class="about" id="about">
       <div class="row">
         <h2>About Me</h2>
@@ -171,12 +172,15 @@
             <p>
               My ultimate aim is to help create games that bring joy and excitement to players, just as they did for me when I was young.
             </p>
+                       
             <a href="https://www.canva.com/design/DAGPWRiOFBw/6E_4n5bkMq18y5E6kUH0Qg/view?utm_content=DAGPWRiOFBw&utm_campaign=designshare&utm_medium=link&utm_source=editor" class="btn">My Resume</a>
           </div>
 
           <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/icon.jpg" alt="" />
+            <!--<img class="about__photo" src="./images/icon.jpg" alt=""/>-->
+            <div class="spline-container">      
+              <spline-viewer url="https://prod.spline.design/HUc-TTzdK6Thuvil/scene.splinecode"></spline-viewer>
+            </div>
           </div>
         </div>
       </div>
